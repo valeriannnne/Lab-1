@@ -1,0 +1,165 @@
+body{
+    font-family: 'Sarala', sans-serif;
+    background: #FFD1D1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 1px;
+
+    position: absolute;
+    width: 715px;
+    height: 813px;
+    left: 156px;
+    top: 70px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 715px;
+    height: 707px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    /* padding: 0px; */
+    /* gap: 20px; */
+    width: 715px;
+    /* height: 129px; */
+}
+
+h1{
+    width: 715px;
+    /* height: 94px; */
+
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 5px;
+}
+span{
+    color: #B61C25;
+}
+small{
+    /* width: 714px;
+    height: 33px; */
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 33px; */
+}
+
+.red-line{
+    width: 162px;
+    height: 6px;
+    background: #B61C25;    
+    margin-top: 10px;
+}
+
+.desc{
+    width: 714px;
+    height: 542px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: justify;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    
+    position: absolute;
+    width: 234.72px;
+    height: 92.43px;
+    left: 1600px;
+    top: 940px;
+    z-index: 2;
+}
+
+.about-top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 5px; */
+}
+
+.AboutUs{
+    width: 82px;
+    /* height: 33px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.white-line{
+    width: 139px;
+    height: 2px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Disc-pfp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 234.72px;
+    height: 47.43px;
+}
+
+.pfp{
+    width: 47.43px;
+    height: 47.43px;
+    transition: transform .2s;
+}
+.pfp:hover, #Link:hover, #title:hover{
+    transform: scale(1.1);
+}
+
+/* Images */
+#title{
+    width: 439px;
+    height: 65px;
+    transition: transform .2s;
+}
+#Link{
+    position: absolute;
+    width: 319px;
+    height: 175px;
+    left: 0px;
+    top: 905px;
+    transition: transform .2s;
+}
+
+#kaguya{
+    position: absolute;
+    width: 827px;
+    height: 888px;
+    left: 1076px;
+    top: 192px;
+}
